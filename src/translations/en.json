@@ -30,9 +30,9 @@
             "header": "System",
             "system-administrator": {
                 "header": "System Administrator",
-                "user-manage": "User manage",
-                "product-manage": "Package manage",
-                "register-package-group-or-account": "Register service package for group/account"
+                "reader-manage": "Reader manage",
+                "author-manage": "Author manage",
+                "book-manage": "Book manage"
             },
             "system-parameter": {
                 "header": "System-parameter"
@@ -40,7 +40,7 @@
         }
     },
     "system": {
-        "user-manage": {
+        "reader-manage": {
             "fail-to-load-fouser": "Fail to load system users list",
             "user-id": "User ID",
             "usertype": "User type",
@@ -66,7 +66,7 @@
             },
             "sure-delete-user": "Are you sure to delete this user?"
         },
-        "product-manage": {
+        "author-manage": {
             "fail-to-load-foprtype": "Fail to load packages list",
             "prid": "Package ID",
             "prname": "Package name",
@@ -93,7 +93,7 @@
             "save-decentralize-fail": "Fail to save decentralization",
             "sure-delete-package": "Are you sure to delete this package?"
         },
-        "register-package-group-or-acc": {
+        "book-manage": {
             "assign-service-package-to-customer": "Assign service package to customer",
             "package-name": "Package name",
             "assign-type": "Assign type",

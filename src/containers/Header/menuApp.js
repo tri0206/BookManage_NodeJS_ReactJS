@@ -4,9 +4,9 @@ export const adminMenu = [
             {
                 name: 'menu.system.system-administrator.header',
                 subMenus: [
-                    { name: 'menu.system.system-administrator.user-manage', link: '/system/user-manage' },
-                    { name: 'menu.system.system-administrator.product-manage', link: '/system/product-manage' },
-                    { name: 'menu.system.system-administrator.register-package-group-or-account', link: '/system/register-package-group-or-account' },
+                    { name: 'menu.system.system-administrator.reader-manage', link: '/system/reader-manage' },
+                    { name: 'menu.system.system-administrator.author-manage', link: '/system/author-manage' },
+                    { name: 'menu.system.system-administrator.book-manage', link: '/system/book-manage' },
                 ]
             },
             // { name: 'menu.system.system-parameter.header', link: '/system/system-parameter' },

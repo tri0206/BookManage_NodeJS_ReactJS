@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto;
+}
+
+.Header {
+    background-color: #3498db;
+    /* Màu nền header */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+        color: #fff;
+        /* Màu chữ */
+    }
+
+    h1:hover {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        background-color: #2980b9;
+        /* Màu nền nút */
+        border-radius: 5px;
+    }
+
+    a:hover {
+        background-color: #2c3e50;
+        /* Màu nền nút khi di chuột qua */
+    }
+}
+
+.banner {
+    background: url('../../assets/images/background2.jpg.png') center center no-repeat;
+    /* Đường dẫn đến hình ảnh nền banner */
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    color: blue;
+    text-align: center;
+    padding: 100px 0;
+
+    .text-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .text-container h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .text-container p {
+        margin-left: 500px;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px 0 0 5px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #2980b9;
+    }
+}
+
+/* HomeBody.scss (hoặc HomeBody.css) */
+
+.bookList {
+    h1 {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    li {
+        width: calc(20% - 20px);
+        /* 1/5 - margin */
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    li:hover {
+        cursor: pointer;
+        color: #e74c3c;
+    }
+
+    img {
+        width: 100%;
+        height: 400px;
+        // object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    li:hover img {
+        transform: scale(1.05);
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        /* Màu chữ */
+        transition: color 0.3s ease-in-out;
+    }
+}
+
+/* Footer.scss (hoặc Footer.css) */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add more styling as needed */
